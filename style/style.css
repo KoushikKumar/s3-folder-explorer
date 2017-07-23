@@ -1,0 +1,70 @@
+body {
+    background-color: #2A2D2E;
+    display: flex;
+    justify-content: center;
+}
+
+.outer-container {
+    width: 20%;
+    height:90vh;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 9px;
+}
+
+.folders {
+    width: 100%;
+    height:90vh;
+    overflow: scroll;
+    margin-top: 6px;
+}
+
+.folder {
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+.fa-icons {
+    display: inline-block;
+}
+
+.fa-folder-o, .fa-folder-open-o, .fa-file-o {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.file-container {
+    position: absolute;
+    width: 90%;
+    height:96vh;
+    background-color: white;
+    border-radius: 10px;
+    left:5%;
+    top:2vh;
+}
+
+.file-content-header {
+    height:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #E5E5E5;
+    align-items: center;
+}
+
+.file-content-close {
+    font-size: 24px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+    
+.file-content-body {
+   display: flex;
+    justify-content: center;
+}
+
+.file-content {
+    width: 90%;
+    height: 84vh;
+    overflow-y: scroll;
+}

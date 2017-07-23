@@ -1,0 +1,1 @@
+export const BUCKET_DATA_URI = "https://koushikkv.s3.ap-south-1.amazonaws.com";
